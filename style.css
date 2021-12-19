@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.4;
+}
+
+header{
+  background-color: #1F2937;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.link, .hero-secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+  margin-bottom: 70px;
+  gap: 30px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.btn {
+  padding: 8px 24px;
+  background-color: #3882F6;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* END HEADER */
+
+.info img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.info-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+  margin-bottom: 100px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.info p {
+  text-align: center;
+}
+
+/* end info */
+.quotes-container {
+  background-color: #E5E7EB;
+  width: auto;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+figure{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+blockquote {
+  font-style: italic;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+figcaption{
+  text-align: right;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* end quotes */
+
+.call-container {
+  width: auto;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-box {
+  background-color: #3882F6;
+  display: flex;
+  padding: 30px 40px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+.btn-action {
+  border: 1px solid #fff;
+}
+
+/* end call action */
+
+footer {
+  padding: 30px 50px;
+  background-color: #1F2937;
+  color: #fff;
+}
+
+footer p {
+  text-align: center;
+}
